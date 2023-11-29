@@ -19,5 +19,5 @@ Files
 ->apiIntegration.js
 ->usersWithPosts.json
 
-###To start the server
+To start the server
 --> node apiIntegration.js
