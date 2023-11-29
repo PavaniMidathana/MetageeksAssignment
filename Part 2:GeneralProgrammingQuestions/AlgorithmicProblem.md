@@ -1,4 +1,4 @@
-# Algorithmic Problem (10 points):
+# Algorithmic Problem:
 
 ### ● Implement a function in a language of your choice that checks if a given string is a palindrome.
 
