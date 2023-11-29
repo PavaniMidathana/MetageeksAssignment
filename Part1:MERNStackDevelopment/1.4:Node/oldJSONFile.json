@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "posts": [
+        {
+          "postId": 101,
+          "title": "Introduction to React",
+          "content": "React is a JavaScript library for building user interfaces.",
+          "date": "2023-01-15"
+        },
+        {
+          "postId": 102,
+          "title": "State Management in React",
+          "content": "Understanding state management in React applications.",
+          "date": "2023-02-02"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "posts": [
+        {
+          "postId": 201,
+          "title": "Node.js Fundamentals",
+          "content": "Exploring the basics of Node.js for server-side development.",
+          "date": "2023-01-20"
+        },
+        {
+          "postId": 202,
+          "title": "RESTful API Design",
+          "content": "Best practices for designing RESTful APIs.",
+          "date": "2023-02-10"
+        }
+      ]
+    }
+]
+  
