@@ -5,14 +5,13 @@ React.js State Management:
 ● Implement state management in React to handle the loading state while fetching the blog posts. Show a loading indicator when posts are being fetched.
 
 Git Repository Link for implementation of above two functionalaities:
-https://github.com/PavaniMidathana/MetageeksAssignmentBlogAssignment.git 
+https://github.com/PavaniMidathana/MetageeksAssignmentReact.git
 
-=> app.js: In the app.js file i have implemented all the functionalities
-=> blogApplication.db: This is the database where the db schema is present
-=> app.http: Using this file we can run the api's 
+=> I wrote the implementstion of above functionalities in the src/app.js and src/components/CardItem/index.js files.
+
 
 Use npm install to install the packages.
 --> npm install
 
 To start the server
---> node app.js
+--> npm start
