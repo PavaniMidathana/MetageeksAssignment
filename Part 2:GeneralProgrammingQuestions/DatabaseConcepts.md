@@ -1,4 +1,4 @@
-# Database Concepts (5 points):
+# Database Concepts:
 
 ### ● Explain the difference between SQL and NoSQL databases. Provide examples of use cases for each.
 
