@@ -53,6 +53,15 @@ SQL query:
     FOREIGN KEY (PostID) REFERENCES Post(PostID)
     );
 
+After this I have inserted some raw data into the database. Following are the queries:
+
+Inserting data into User Table:
+  INSERT INTO 
+   User(UserID,Username,Email)
+   VALUES 
+   (1,"pavani","pavani@gmail.com"), 
+   (2,"hyma","hyma@gmail.com"),
+   (3,"anju","anju@gmail.com");
 
 
 ● Write a MongoDB query to find all posts created by a specific user,including the user details.
