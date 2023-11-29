@@ -1,17 +1,18 @@
-This is the github link of Middleware and Route implementation
+React.js Component:
+● Create a React.js functional component that displays a list of blogposts. Each post should show the title, author, and a button to view the full post.
 
-https://github.com/kanchi9390/MetaGeeksAssignment.git
+React.js State Management:
+● Implement state management in React to handle the loading state while fetching the blog posts. Show a loading indicator when posts are being fetched.
 
-● Create an Express.js middleware that logs the timestamp and the requested URL for every incoming request.
+Git Repository Link for implementation of above two functionalaities:
+https://github.com/PavaniMidathana/MetageeksAssignmentBlogAssignment.git 
 
-● Implement an Express.js route that retrieves a list of posts from the database and returns it as JSON.
-
-Installation
+=> app.js: In the app.js file i have implemented all the functionalities
+=> blogApplication.db: This is the database where the db schema is present
+=> app.http: Using this file we can run the api's 
 
 Use npm install to install the packages.
-
 --> npm install
 
 To start the server
-
---> npm start
+--> node app.js
