@@ -58,7 +58,7 @@ After this I have inserted some raw data into the database. Following are the qu
 Inserting data into User Table:
   INSERT INTO 
      User(UserID,Username,Email)
-     VALUES 
+  VALUES 
      (1,"pavani","pavani@gmail.com"), 
      (2,"hyma","hyma@gmail.com"),
      (3,"anju","anju@gmail.com");
@@ -66,7 +66,7 @@ Inserting data into User Table:
 Inserting data into Post Table:
   INSERT INTO
      Post(PostId,Title,Content,UserID)
-     VALUES(1,"React.js: Powering Modern Web Experiences","React.js, developed by Facebook, has revolutionized web development with its component-based architecture. Focused on building dynamic user interfaces, React simplifies UI development through its declarative syntax and efficient rendering with the virtual DOM. With a robust ecosystem and strong community support, React.js is the framework of choice for creating scalable and interactive web applications.",1),
+  VALUES(1,"React.js: Powering Modern Web Experiences","React.js, developed by Facebook, has revolutionized web development with its component-based architecture. Focused on building dynamic user interfaces, React simplifies UI development through its declarative syntax and efficient rendering with the virtual DOM. With a robust ecosystem and strong community support, React.js is the framework of choice for creating scalable and interactive web applications.",1),
      (2,"Node.js: Empowering Scalable and High-Performing Web Applications","Node.js, built on the V8 JavaScript runtime, has revolutionized server-side development. With its non-blocking, event-driven architecture, Node.js allows developers to create lightweight and efficient applications capable of handling a large number of simultaneous connections. From building APIs to full-stack web applications, Node.js offers a versatile and fast platform, making it a top choice for developers seeking scalability and performance in their projects. Dive into the world of Node.js to harness its speed, simplicity, and vast ecosystem for crafting modern and responsive web solutions.",2),
      (3,"Unleashing the Power of React.js in Modern Web Development","At the core of React.js is the concept of components, reusable and encapsulated building blocks that enable the creation of complex UIs. This modular approach not only enhances code maintainability but also facilitates the development of scalable applications. React's virtual DOM ensures optimal rendering performance, leading to a smoother user experience.",3),
      (4,"Express.js: Streamlining Node.js Web Development","Express.js simplifies common tasks in web development, offering a concise and expressive syntax. With middleware support, routing, and a robust set of features, developers can quickly build scalable and efficient server-side applications. Whether you're creating a RESTful API or a full-fledged web application, Express.js provides a solid foundation.",1);
@@ -82,3 +82,11 @@ Inserting data into Comment Table:
 
 
 ● Write a MongoDB query to find all posts created by a specific user,including the user details.
+
+SQL query:
+  SELECT * 
+  FROM Post 
+  JOIN User ON Post.UserID = User.UserID 
+  WHERE User.Username="pavani";
+
+It will get all posts created by the user "pavani",including the user details.
