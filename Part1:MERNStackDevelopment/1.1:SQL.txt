@@ -1,10 +1,10 @@
-SQL Schema Design:
+# SQL Schema Design:
 
-● Design a MongoDB schema for a blog application with the following entities: User, Post, and Comment. Include relevant fields and relationships.
+## ● Design a MongoDB schema for a blog application with the following entities: User, Post, and Comment. Include relevant fields and relationships.
 
 Below is a simple example of an SQL database schema for a blog application with the entities User, Post, and Comment:
 
-1.User Table:
+### 1.User Table:
 
 Fields:
   UserID (Primary Key)
@@ -18,7 +18,7 @@ SQL query:
      Email VARCHAR(255) NOT NULL 
      );
 
-2.Post Table:
+### 2.Post Table:
 
 Fields:
   PostID (Primary Key)
@@ -35,7 +35,7 @@ SQL query:
      FOREIGN KEY (UserID) REFERENCES User(UserID)
      );
 
-3.Comment Table:
+### 3.Comment Table:
 
 Fields:
   CommentID (Primary Key)
@@ -81,7 +81,7 @@ Inserting data into Comment Table:
      (5,"Brief Intro",1,3);
 
 
-● Write a MongoDB query to find all posts created by a specific user,including the user details.
+## ● Write a MongoDB query to find all posts created by a specific user,including the user details.
 
 SQL query:
   SELECT * 
