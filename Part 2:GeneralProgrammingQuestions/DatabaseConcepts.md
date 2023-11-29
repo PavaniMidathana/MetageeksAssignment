@@ -31,9 +31,6 @@ Data can be stored in various formats like JSON, BSON, XML, etc.
 
 ## Scalability:
 NoSQL databases are typically scaled horizontally by adding more servers to the database.
-Consistency:
-
-May sacrifice some aspects of consistency in favor of availability and partition tolerance (CAP theorem).
 
 ## Examples:
 MongoDB, Cassandra, CouchDB, Redis.
