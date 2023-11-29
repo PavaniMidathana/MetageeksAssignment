@@ -17,3 +17,5 @@ if result:
 else:
     print(f"{input_string} is not a palindrome.")
 ```
+
+This code first cleans the input string by converting it to lowercase and removing non-alphanumeric characters. Then, it checks if the cleaned string is equal to its reverse, which determines if the original string is a palindrome. The example usage shows how to use the function with a sample string.
